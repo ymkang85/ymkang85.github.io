@@ -60,4 +60,3 @@ sort: 1
 ```
 
 [참고](https://fastapi.tiangolo.com/ko/tutorial/query-params-str-validations/)
-```
