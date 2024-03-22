@@ -1,0 +1,2 @@
+{% capture mytitle%}{{page.title}}{%endcapture%}
+<title>{% if mytitle %}{{ mytitle | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
