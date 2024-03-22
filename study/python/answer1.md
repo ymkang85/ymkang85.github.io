@@ -28,22 +28,23 @@
 ```yml
 ->  
 '''
-      def solution(left, right):
-            answer = 0 
-            arr = []
-            if left>right : 
-                left,right=right,left
-            while left < right+1:
-                for i in range(1, left+1): 
-                    if left%i == 0: 
-                        arr.append(i) 
-                    
-                if len(arr)%2==0: 
-                    answer+=left  
-                else:
-                    answer-=left 
-                arr=[] # 중요! 빈배열로 꼭 만들어줘야 한다. 그러지 않을 경우 상단의 for문에서 값이 들어있는 배열을 활용하게 된다.  
-                left+=1 
+def solution(left, right):
+    answer = 0
+    arr = []
+    if left>right :
+        left,right=right,left
+    while left < right+1:
+        for i in range(1, left+1):
+            if left%i == 0:
+                arr.append(i)
+
+        if len(arr)%2==0:
+            answer+=left
+        else:
+            answer-=left
+        arr=[] # 중요! 빈배열로 꼭 만들어줘야 한다. 그러지 않을 경우 상단의 for문에서 값이 들어있는 배열을 활용하게 된다. 
+        left+=1
+    return answer
 ''' 
 ```
 
