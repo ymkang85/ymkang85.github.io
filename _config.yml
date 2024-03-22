@@ -7,8 +7,8 @@ description: Just another documentation theme compatible with GitHub Pages
 #   dist: false
 #   shortcodes: true
 
-readme_index:
-  with_frontmatter: true
+#readme_index:
+#  with_frontmatter: true
 
 plugins:
   - jemoji
@@ -16,15 +16,15 @@ plugins:
   - jekyll-mentions
 
 exclude:
-  - Makefile
-  - CNAME
-  - LICENSE
-  - update.sh
-  - Gemfile
-  - Gemfile.lock
-  - requirements.txt
-  - node_modules
-  - package.json
-  - package-lock.json
-  - webpack.config.js
-  - jekyll-rtd-theme.gemspec
+#  - Makefile
+#  - CNAME
+#  - LICENSE
+#  - update.sh
+#  - Gemfile
+#  - Gemfile.lock
+#  - requirements.txt
+#  - node_modules
+#  - package.json
+#  - package-lock.json
+#  - webpack.config.js
+#  - jekyll-rtd-theme.gemspec
