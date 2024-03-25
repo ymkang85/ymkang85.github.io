@@ -1,4 +1,4 @@
-# fastapi
+# query & string authentication
 
 
 # 쿼리 매개변수와 문자열 검증
